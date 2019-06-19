@@ -4,17 +4,20 @@ body{
 
 .main_header{
     background-color: #ffffff;
+    position: relative;
 }
 
 .main_background{
-    background-color: #dddddd;
+    background-image: image(papyrus.png);
+    margin-top: 150px;
 }
 
 .name_tag_div{
     background-color: #4aaaa5;
+    float: left;
 }
 
-h1, h3{
+h1{
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
@@ -32,10 +35,17 @@ p{
 
 .link{
     color: #777777;
+    float: left;
+
 }
 
 .about_me{
     color: #4aaaa5;
+}
+
+.image{
+    float: left;
+    padding: 15px;;
 }
 
 .paragraph{
