@@ -1,57 +1,80 @@
 body{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.main_header{
-    background-color: #ffffff;
+.header{
+    width: 70%;
+    margin: 0 auto;
+    display: inline-block;
     position: relative;
-}
-
-.main_background{
-    background-image: image(papyrus.png);
-    margin-top: 150px;
+    border-bottom: 2px solid #cccccc;
+    box-sizing: border-box;
 }
 
 .name_tag_div{
     background-color: #4aaaa5;
     float: left;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    color: #ffffff;
+}
+.main_background{
+    background-image: url("images/papyrus.png");
+    background-repeat: repeat;
+    width: 100%;
+    margin:0 20px 20px 20px;
+    padding: 20px;
+}
+
+menu{
+    margin-right: 50px;
+    position: absolute;
 }
 
 h1{
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-.h1_about_me{
-    color: #4aaaa5
-}
-
 p{
     color: #777777;
-}
-
-.name_tag_h1{
-    color: #ffffff;
+    line-height: 1.5;
+    border-top: #dddddd 3px solid;
 }
 
 .link{
     color: #777777;
-    float: left;
+    float: right;
+    padding: 20px;
+    position: relative;
 
 }
 
-.about_me{
+.paragraph_headline{
     color: #4aaaa5;
 }
 
 .image{
     float: left;
-    padding: 15px;;
+    padding-right: 15px;
 }
 
 .paragraph{
     background-color: #ffffff;
+    width: 70%;
+    padding: 20px;
+    margin: 0px auto;
+    padding: 20px;
 }
 
 .footer{
     background-color: #666666;
+    width: 100%;
+    height: 50px;
+    border-top: 4px solid #4aaaa5;
+    position: absolute;
+    text-align: center
 }
