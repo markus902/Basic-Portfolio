@@ -56,7 +56,7 @@ div.main_background{
     clear: both;
 }
 
-.paragraph_container{
+div.paragraph_container{
     background-color: #ffffff;
     height: 960px;
     margin: 0px 15%;
@@ -81,7 +81,7 @@ p{
     margin: 0;
 }
 
-.paragraph_headline{
+h1.paragraph_headline{
     float: left;
     color: #4aaaa5;
     clear: both;
@@ -99,6 +99,23 @@ img.me_image{
     float: left;
     padding-right: 15px;
     padding-top: 5px;
+}
+
+div.portfolio_image{
+    float: left;
+    position: relative;
+    margin: 20px 20px 0 20px;
+}
+
+div.project_div{
+    float: left;
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
 }
 
 div.footer{
