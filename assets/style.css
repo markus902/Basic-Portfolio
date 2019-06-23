@@ -132,3 +132,13 @@ div.footer{
 h6{
     font-weight: 100;
 }
+
+input.form_style{
+    position: relative;
+    width: 98%;  
+    height: 16px; 
+}
+
+input.message{
+    height: 200px;
+}
