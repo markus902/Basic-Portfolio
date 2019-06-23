@@ -21,11 +21,15 @@ a.link{
     text-decoration: none;
 }
 
+a.left_link, a.right_link{
+    padding: 0 15px 0 15px;
+    margin: 0;
+}
+
 a.center_link{
     border-left: 1px solid #777777;
     border-right: 1px solid #777777;
     padding: 0 15px 0 15px;
-    margin: 0 15px 0 15px;
 }
 
 a:hover{
