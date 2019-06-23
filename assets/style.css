@@ -4,77 +4,110 @@ body{
     padding: 0;
 }
 
-.header{
-    width: 70%;
-    margin: 0 auto;
-    display: inline-block;
+h1.name_tag_h1{
     position: relative;
-    border-bottom: 2px solid #cccccc;
-    box-sizing: border-box;
-}
-
-.name_tag_div{
-    background-color: #4aaaa5;
     float: left;
-    margin: 0;
-    padding: 10px;
-    position: absolute;
-    bottom: 0;
+    width: auto;
+    margin: 30px 0 0 15%;
+    padding: 25px;
+    background-color: #4aaaa5;
     color: #ffffff;
 }
-.main_background{
-    background-image: url("images/papyrus.png");
-    background-repeat: repeat;
-    width: 100%;
-    margin:0 20px 20px 20px;
-    padding: 20px;
+
+a.link{
+    position: relative;
+    float: left;
+    color:#777777;
+    text-decoration: none;
 }
 
-menu{
-    margin-right: 50px;
+a.center_link{
+    border-left: 1px solid #777777;
+    border-right: 1px solid #777777;
+    padding: 0 15px 0 15px;
+    margin: 0 15px 0 15px;
+}
+
+a:hover{
+    background-color: #777777;
+    color: #ffffff
+}
+
+div.menu{
+    float: left;
     position: absolute;
+    top: 60px;
+    right: 15%;
+}
+
+div.main_background{
+    float: left;
+    position: relative;
+    background-image: url("../images/papyrus.png");
+    background-repeat: repeat;
+    border-top: 2px solid #cccccc;
+    width: 100%;
+    height: 100%;
+    margin:0 auto;
+    clear: both;
+}
+
+.paragraph_container{
+    background-color: #ffffff;
+    height: 960px;
+    margin: 0px 15%;
+    padding: 20px 0 20px 0;
 }
 
 h1{
+    font-size: 28px;
     font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h1.paragraph_headline{
+    position: relative;
+    float: left;
+    margin: 20px 0 20px 0;
+    padding-left: 20px;
 }
 
 p{
     color: #777777;
     line-height: 1.5;
-    border-top: #dddddd 3px solid;
-}
-
-.link{
-    color: #777777;
-    float: right;
-    padding: 20px;
-    position: relative;
-
+    margin: 0;
 }
 
 .paragraph_headline{
+    float: left;
     color: #4aaaa5;
+    clear: both;
 }
 
-.image{
+div.paragraph_image_wrapper{
+    position: relative;
+    clear: both;
+    border-top: 2px solid #dddddd;
+    margin: 20px;
+    padding-top: 25px;
+}
+
+img.me_image{
     float: left;
     padding-right: 15px;
+    padding-top: 5px;
 }
 
-.paragraph{
-    background-color: #ffffff;
-    width: 70%;
-    padding: 20px;
-    margin: 0px auto;
-    padding: 20px;
-}
-
-.footer{
-    background-color: #666666;
+div.footer{
+    position: fixed;
+    bottom: 0;
     width: 100%;
-    height: 50px;
-    border-top: 4px solid #4aaaa5;
-    position: absolute;
-    text-align: center
+    height: 10%;
+    color: #ffffff;
+    background-color: #666666;
+    border-top: 6px solid #4aaaa5;
+    text-align: center;
+}
+
+h6{
+    font-weight: 100;
 }
