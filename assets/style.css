@@ -38,6 +38,14 @@ a:hover{
     color: #ffffff
 }
 
+a.text_link{
+    color:#777777;
+}
+
+a.text_link:hover{
+    color: #ffffff
+}
+
 div.menu{
     float: left;
     position: absolute;
