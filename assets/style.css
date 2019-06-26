@@ -12,6 +12,7 @@ h1.name_tag_h1{
     padding: 25px;
     background-color: #4aaaa5;
     color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 a.link{
@@ -105,6 +106,7 @@ div.portfolio_image{
     float: left;
     position: relative;
     margin: 20px 20px 0 20px;
+    border-radius: 30px;
 }
 
 div.project_div{
@@ -116,6 +118,11 @@ div.project_div{
     text-align: center;
     background-color: #4aaaa5;
     color: #ffffff;
+    font-size: 23px;
+}
+
+div.project_div:hover{
+    background-color: #283635;
 }
 
 div.footer{
