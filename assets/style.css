@@ -73,6 +73,12 @@ div.paragraph_container{
     overflow: visible;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
 h1{
     font-size: 28px;
     font-family: 'Georgia', Times, Times New Roman, serif;
